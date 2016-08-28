@@ -151,7 +151,7 @@ sup {
 
     header .footer{
         position: absolute;
-        left: 40px;
+        right: 20px;
         bottom: 30px;
         text-align: right
     }
