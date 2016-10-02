@@ -77,9 +77,9 @@ sup {
     }
 
     header .logo{
-       
-        margin-left: 67px;
-        
+      margin-top: 30px;
+      margin-left: 59px;
+      max-width: 70%;
     }
 
     header .desktop{
@@ -646,6 +646,7 @@ sup {
     }
     header .logo{
         margin: 10px 0 0 10px;
+        max-width: 60%;
         float: left;
     }
     header .footer{
@@ -781,8 +782,8 @@ header .mobile{
     
     header .logo{
         margin-top: 0px;
-        margin-left: 5px;
-        max-width: 60%;
+        margin-left: 20px;
+        max-width: 40%;
     }
     
     header #menu_icon,
