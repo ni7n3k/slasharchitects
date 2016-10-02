@@ -645,8 +645,8 @@ sup {
         position: relative;
     }
     header .logo{
-        margin: 10px 0 0 10px;
-        max-width: 60%;
+        margin: 10px 10px 10px 10px;
+        max-width: 40%;
         float: left;
     }
     header .footer{
@@ -781,8 +781,9 @@ header .mobile{
     }
     
     header .logo{
-        margin-top: 0px;
+        margin-top: 10px;
         margin-left: 20px;
+        margin-bottom: 10px;
         max-width: 40%;
     }
     
