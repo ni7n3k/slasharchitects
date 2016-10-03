@@ -271,7 +271,7 @@ sup {
 /*  Home/portfolio  */
 .main .work{
     display: none;
-    width: 33.33333333333333%;
+    width: 25%;
     max-width: 466px;
     height: auto;
     float: left;
@@ -704,7 +704,7 @@ header .mobile{
     }
 
     .main .work{
-        width: 50%;
+        width: 33.33333333333333%;
     }
     .main{
         width: 100%;
