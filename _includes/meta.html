@@ -1,23 +1,32 @@
 <meta charset="utf-8">
-	<meta name="author" content="slasharchitects">
-	<meta name="description" content="slasharchitects is an Istanbul-based architecture practice"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:700italic,300,700,300italic&subset=latin-ext' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:700italic,300,700,300italic&subset=latin-ext' rel='stylesheet' type='text/css'>
+
+<!-- GENERAL -->
+<meta name="author" content="slasharchitects">
+<meta name="description" content="{{ page.description }}"/>
+<meta name="keywords" content="{{ page.keywords }}"/>
     
-    <meta property="og:title" content="Glaister||Gaucher Architects"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.ggarchi.com/"/>
-    <meta property="og:image" content="http://www.ggarchi.com/img/00-general/GGA-logo.svg"/>
-    <meta property="og:site_name" content="Glaister||Gaucher Architects">
-    <meta property="og:description" content="Glaister||Gaucher Architects is an Istanbul-based architecture practice" />
-    <meta property="fb:admins" content="1266930001" />
+<!-- OPENGRAPH - FACEBOOK-->
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:type" content="{{ page.type }}"/>
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:image" content="{{ page.thumbnail }}"/>
+<meta property="og:site_name" content="slasharchitects">
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="fb:admins" content="1266930001" />
+
+<!-- TWITTER -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slasharchitects">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ page.thumbnail }}">
+<meta name="twitter:image:alt" content="slasharchitects {{ page.title }} thumbnail">
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@GGArchitects">
-    <meta name="twitter:title" content="Glaister||Gaucher Architects">
-    <meta name="twitter:description" content="slasharchitects is an Istanbul-based architecture practice">
-    
-    <link href="https://plus.google.com/100649611015293255253" rel="publisher"/>
-    <meta itemprop="name" content="Glaister||Gaucher Architects"/>
-    <meta itemprop="description" content="Glaister||Gaucher Architects is an Istanbul-based architecture practice"/>
-    <meta itemprop="image" content="http://www.ggarchi.com/img/00-general/GGA-logo.svg"/>
+<!-- SCHEMA.ORG - GOOGLE+ -->
+<meta itemprop="name" content="{{ page.title }}">
+<meta itemprop="description" content="{{ page.description }}">
+<meta itemprop="image" content="{{ page.thumbnail }}">
+<link href="https://plus.google.com/100649611015293255253" rel="publisher"/>
