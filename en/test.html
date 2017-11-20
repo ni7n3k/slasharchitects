@@ -8,14 +8,6 @@ keywords:
 description: about slasharchitects architecture and interior design office.
 ---
 
-    <script src="/js/colorbox.js"></script>
-    <script>
-      function openColorBox(){
-        $.colorbox({iframe:true, width:"80%", height:"80%", href: "https://www.google.com.tr"});
-      }
-      
-      setTimeout(openColorBox, 5000);
-    </script>
 
 
 	<section class="main clearfix">
@@ -57,3 +49,28 @@ description: about slasharchitects architecture and interior design office.
 			</div>
 		</section>
 	</section>
+
+
+
+
+<div id="popup" class="popup panel panel-primary">
+    <img src="/img/00-news/main/slasharchitects-WAF-award-01.jpg" alt="popup">
+    <div class="panel-footer">
+        <button id="close" class="btn btn-lg btn-primary">CLOSE</button>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+    //select the POPUP FRAME and show it
+    $("#popup").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+});
+</script>
+
