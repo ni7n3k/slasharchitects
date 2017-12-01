@@ -920,6 +920,7 @@ body
     width: 70%;
     left: 50%;
     top: 50%;
+    margin: -35% 0 0 -25%
     z-index: 750;
 }
 .modal
@@ -928,9 +929,9 @@ body
     border: solid 1px #999999; 
     position: relative;
     top: ;
-    left: -50%;
+    left: ;
     z-index: 1000;
-    width: 600px;
+    width: ;
     height: ;
     padding: 0px;
 }
