@@ -917,7 +917,7 @@ body
 .modalContainer
 {
     position: absolute;
-    width: 600px;
+    width: 70%;
     left: 50%;
     top: 50%;
     z-index: 750;
@@ -927,16 +927,16 @@ body
     background-color: #ffffff;
     border: solid 1px #999999; 
     position: relative;
-    top: -150px;
-    left: -150px;
+    top: ;
+    left: -50%;
     z-index: 1000;
     width: 600px;
-    height: 400px;
+    height: ;
     padding: 0px;
 }
 .modalTop
 {
-    width: 598px;
+    width: 99%;
     background-color: #ffffff;
     padding: 1px;
     color: #000000;
